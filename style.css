@@ -15,4 +15,9 @@ html {
     #COP {   
        font-family: Georgia;
     } 
-ul {list-stlye-position:inside;}
+ul {list-style-position:inside;}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
