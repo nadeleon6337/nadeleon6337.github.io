@@ -21,3 +21,6 @@ ul {list-style-position:inside;}
 a:link {
     color: red;
 }
+  /* visited link */
+a:visited {
+    color: green;
