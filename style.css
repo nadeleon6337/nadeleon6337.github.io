@@ -19,8 +19,8 @@ ul {list-style-position:inside;}
 
 /* unvisited link */
 a:link {
-    color: red;
+    color: black;
 }
   /* visited link */
 a:visited {
-    color: green;
+    color: white;
