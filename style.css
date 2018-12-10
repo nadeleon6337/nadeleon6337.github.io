@@ -10,17 +10,17 @@ html {
     .Scholarships{
        font-family: Georgia;
      }
-    
-    
+    /* Noel Deleon, Class Selector, source: https://www.w3schools.com/cssref/css_selectors.asp */
     #COP {   
        font-family: Georgia;
+    /* Noel Deleon, id Selector, source: https://www.w3schools.com/cssref/css_selectors.asp */
     } 
 ul {list-style-position:inside;}
 
-/* unvisited link */
+/* Noel Deleon unvisited link ( included to reduce contrast errors)*/
 a:link {
     color: black;
 }
-  /* visited link */
+  /* Noel Deleon visited link ( included to reduce contrast errors)*/
 a:visited {
     color: Navy;
