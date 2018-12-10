@@ -2,6 +2,8 @@
 
 <html lang=en> 
 
+<meta charset="UTF-8">
+
   <head>
 
   <title> Noel Deleon's Student Portfolio </title>    
@@ -24,7 +26,7 @@
     <script>
 var x="";
 var time=new Date().getHours();
-if (time<20)
+if (time<17)
   {
                  x="Good day, welcome to my student portfolio";
   }
@@ -33,7 +35,7 @@ else
                 x="Good evening, welcome to my student portolio";
   }
 document.write(x);
-                
+      // Noel Deleon, time based greeting using Javascript //       
 </script>
     
   <body>
@@ -104,7 +106,6 @@ ctx.fillText("About the Math Major",10,50);
 </script>
 
   
-  
   <br>
   
 <video width="400" controls>
@@ -113,7 +114,12 @@ ctx.fillText("About the Math Major",10,50);
 </video>
 
   <br>
-<a href="https://www.docdroid.net/3lFz7x7/cop-1500-fields-report.pdf">Fields Report</a>
+<button type="button"
+onclick="document.getElementById('JavaScript').innerHTML = Date()">
+JavaScript Time Display.</button>
+
+<p id="JavaScript"></p>
+
 
 </body>
 </html>
